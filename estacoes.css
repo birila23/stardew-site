@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(rgb(235, 227, 124),rgb(228, 153, 42));
+    font-size: 100%;
+    font-family: 'Sarala', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #275d9b;
+}
+
+#logo {
+    width: 90%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.itens {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: #ebe3b8;
+    color: rgb(64, 214, 101);
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.conteudo {
+    color: rgb(61, 21, 21);
+}
+
+.conteudo_principal {
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    -webkit-margin-before: 1em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.conteudo_principal p {
+    font-size: 20px;
+    line-height: 1; 
+    padding: 3%;
+    line-height: 1.5;
+}
+
+.conteudo_principal h2 {
+    text-align: center;
+}
+
+.conteudo-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40%;
+    margin: auto;  
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    padding-bottom: 7%;
+}
+
+.informacao{
+    display: flex;
+    height: 280px;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: rgb(137, 218, 218);
+    margin-top: auto;
+    bottom: auto;
+    background: rgba(51, 99, 28, 0.8);
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 3%;
+}
+
+
+.informacao:hover{
+    opacity: 1;
+}
+.informacao h2{
+    font-size: 30px;
+}
+.informacao p{
+    font-size: 20px;
+}
+.informacao a{
+    font-size: 24px;
+    color: rgb(239, 210, 210);
+}
+.informacao a:hover{
+    color: rgb(38, 199, 56);
+}
+
+.img-box img{
+    width: 500px;
+    height: 281px;
+    border: 3px solid rgb(157, 117, 68);
+    border-radius: 3%;
+}
+
+footer{
+    padding: 1%;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(63, 16, 16);
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    border-top: 0.4px solid rgb(110, 105, 105);
+}

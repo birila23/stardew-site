@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(rgb(226, 220, 161),rgb(226, 165, 73));
+    font-size: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #275d9b;
+}
+
+#logo {
+    width: 90%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.itens {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+}
+
+a:hover{
+    text-decoration: #ebe3b8;
+    color: rgb(64, 214, 101);
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.conteudo {
+    margin-bottom: 48px;
+    color: rgb(61, 21, 21);
+    font-family: 'Sarala', sans-serif;
+}
+
+div.image {
+    width: 100%;
+    height: 900px;
+    background-image: url("img/valley-Shot.jpg");
+}
+
+.conteudo_principal{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.titulo {
+    margin: 5%;
+    line-height: 1;
+}
+
+.paragrafos h2{
+    line-height: 1;
+    margin: 3%;  
+}
+
+.paragrafos p {
+    font-size: 20px;
+    line-height: 1;
+    margin: 5%;  
+    padding: 5px;
+    line-height: 1.5;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 5%; 
+    padding-top:5%
+}
+
+#imagens{
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+#imagens:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+footer{
+    padding: 1%;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(63, 16, 16);
+    font-family: 'Sarala', sans-serif;
+    font-weight: bold;
+    border-top: 0.4px solid rgb(110, 105, 105);
+}
+
