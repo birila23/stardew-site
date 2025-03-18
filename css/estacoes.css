@@ -69,6 +69,10 @@ a:hover {
     line-height: 1.5;
 }
 
+.conteudo_principal h2{
+    font-size: 40px;
+}
+
 .conteudo_principal p {
     font-size: 20px;
     line-height: 1; 
