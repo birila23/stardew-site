@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&family=Sarala:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(rgb(226, 220, 161),rgb(226, 165, 73));
+    font-size: 100%;
+    font-family: 'Sarala', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #275d9b;
+}
+
+#logo {
+    width: 90%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.itens {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 25px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+}
+
+a:hover{
+    text-decoration: #ebe3b8;
+    color: rgb(64, 214, 101);
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.conteudo{
+    color: rgb(61, 21, 21);
+    
+}
+
+h2{
+    
+}
+
+.principal{
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:100px
+}
+
+.aldeoes{
+    
+}
